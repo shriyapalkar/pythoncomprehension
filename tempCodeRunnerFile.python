@@ -1,0 +1,7 @@
+numbers=[1,2,3,4,5]
+#create a new list using comprehension
+square_numbers=[num*num for num in numbers]
+print(square_numbers)
+
+add_numbers=[num + num for num in numbers]
+print(add_numbers)
